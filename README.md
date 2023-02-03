@@ -39,3 +39,12 @@ https://www.figma.com/file/sf1CmqcEZbUzkeZOA4AUGj/TESTE-FRONT-MAGAZORD?node-id=0
 
 ## Envio do teste
 * Suba o repositório no seu Github e envie o link diretamente para o seu recrutador. Obs.: Não serão aceitos alterações após o envio
+
+## Istruções para execução do projeto
+
+Dentro da pasta pasta principal do projeto execute o seguinte comando.
+
+* npm i && npm start
+
+Observação:
+* Caso deseje mudar o usuario do github, visualizar o arquivo dentro da pasta hooks. Também deve excluir o localstorage com o nome de dataUser.

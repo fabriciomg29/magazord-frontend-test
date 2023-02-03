@@ -1,0 +1,16 @@
+.contentList {
+  display: flex;
+  align-items: center;
+  height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0587FF;
+  &:not(&:nth-last-child(1)) {
+    margin-bottom: 16px;
+  }
+}
+
+.iconList {
+  margin-right: 10px;
+}

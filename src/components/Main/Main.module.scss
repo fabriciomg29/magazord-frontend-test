@@ -1,0 +1,22 @@
+@import "../../styles/_breakpoints.scss";
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  margin-top: 40px;
+  width: $desktop_md;
+}
+
+// Mobile
+@media (max-width: $mobile) {
+  .container {
+    display: block;
+    padding: 20px 20px;
+  }
+}

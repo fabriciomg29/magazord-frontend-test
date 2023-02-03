@@ -1,0 +1,17 @@
+@import "../../../styles/_breakpoints.scss";
+
+.container {
+  display: flex;
+}
+
+.container > span:not(:first-child) {
+  margin-left: 57px;
+}
+
+// Mobile
+@media (max-width: $mobile) {
+  .container {
+    margin-top: 70px;
+    justify-content: space-between;
+  }
+}

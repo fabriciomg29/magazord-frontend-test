@@ -1,0 +1,53 @@
+@import "../../../styles/_breakpoints.scss";
+
+main {
+  display: flex;
+}
+
+.container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 28px;
+}
+
+.avatar {
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+}
+
+.iconProfileAvatar {
+  width: 18px;
+  height: 18px;
+}
+
+.contentIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #FFF;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  box-shadow: 0px 0px 16px rgba(79, 79, 80, 0.15);
+}
+
+// Tablet
+@media (max-width: $tablet) {
+  .container {
+    width: 104px;
+    height: 104px;
+  }
+  .contentIcon {
+    width: 27.50px;
+    height: 27.5px;
+  }
+  .iconProfileAvatar {
+    width: 13px;
+    height: 13px;
+  }
+}

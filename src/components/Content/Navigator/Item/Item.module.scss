@@ -1,0 +1,54 @@
+$text_enable: #989898;
+$text_disabled: #989898;
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 49px;
+  cursor: pointer;
+}
+
+.enable {
+  border-bottom: 2px solid #FD8C73;
+  .name {
+    color: 000000;
+  }
+}
+
+.disabled {
+  border-bottom: 2px solid #FFF;
+  .name {
+    color: #989898;
+  }
+}
+
+.name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 40px;
+  height: 24px;
+  background: #F8F8F8;
+  border: 1px solid #DBDBDB;
+  border-radius: 59px;
+}
+
+.counterNumber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $text_enable;
+}

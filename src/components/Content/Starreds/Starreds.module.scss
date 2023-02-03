@@ -1,0 +1,60 @@
+@import "../../../styles/_breakpoints.scss";
+
+.container {
+  width: 100%;
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+hr {
+  display: none;
+}
+
+.link {
+  width: 100%;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.name {
+  font-weight: 600;
+  color: #0587FF;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #989898;
+}
+
+.footer {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fork {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 4px;
+}
+
+// Tablet
+@media (max-width: $tablet) {
+  .container {
+    margin-bottom: 0px;  
+  }
+  hr {
+    display: block;
+    margin: 32px 0px;
+    border: 1px solid #F4F4F4;
+  }
+}

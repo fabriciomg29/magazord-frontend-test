@@ -1,0 +1,45 @@
+@import "../../styles/_breakpoints.scss";
+
+header {
+  background-color: #24292E;
+  color: #FFF;
+  width: 100%;
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: $desktop_md;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 224px;
+  height: 100%;
+}
+
+.divider {
+  width: 10px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.profile {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+// Mobile
+@media (max-width: $mobile) {
+  header {
+    display: none;
+  }
+}
