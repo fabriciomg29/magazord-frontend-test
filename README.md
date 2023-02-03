@@ -42,7 +42,7 @@ https://www.figma.com/file/sf1CmqcEZbUzkeZOA4AUGj/TESTE-FRONT-MAGAZORD?node-id=0
 
 ## Istruções para execução do projeto
 
-Dentro da pasta pasta principal do projeto execute o seguinte comando.
+Dentro da pasta principal do projeto execute o seguinte comando.
 
 * npm i && npm start
 
